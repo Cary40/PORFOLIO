@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carina A. Nasif - Desarrolladora Web</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body class="scroll">
+  <header class="encabezado">
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="#presentacion">
+        <h1 class="navegacion__titulo">Portfolio</h1>
+      </a>
+      <ul class="enlaces">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#sobre-mi">Sobre mí</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#redes">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="principal">
+    <section class="presentacion" id="presentacion">
+      <div class="presentacion__contenedor">
+        <img
+          class="presentacion__imagen"
+          src="assets/img/MiPerfil/perfil.png"
+          alt="Foto de Carina Nasif, desarrolladora web"
+          title="Carina Nasif perfil"
+        />
+        <div class="presentacion__contenedor_info">
+          <h1 class="presentacion__titulo">¡Hola! Soy Carina A. Nasif</h1>
+          <p class="presentacion__parrafo">
+            Desarrolladora web apasionada por crear experiencias digitales únicas.
+          </p>
+          <div class="presentacion__contenedor_botones">
+            <a href="#sobre-mi" class="boton" role="button">Sobre mí</a>
+            <a
+              href="assets/docs/CV.docx"
+              target="_blank"
+              class="boton boton_oscuro"
+              role="button"
+              rel="noopener noreferrer"
+            >
+              Descargar CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article class="articulo sobre_mi" id="sobre-mi">
+      <h2 class="articulo__titulo">Un poco sobre mí</h2>
+      <div class="articulo__contenedor_descripciones">
+        <section class="seccion_descripcion">
+          <div class="seccion_descripcion__info scroll scroll_fino scroll_gris">
+            <h3 class="seccion_descripcion__titulo">Mi historia</h3>
+            <p class="seccion_descripcion__parrafo">
+              Soy Técnica Dental de laboratorio, pero mi verdadera pasión
+              ha encontrado su hogar en el fascinante mundo de la programación y el desarrollo web.
+              Mi trayectoria en el área técnica me enseñó la importancia de la precisión, la creatividad y
+              la solución de problemas, habilidades que ahora aplico con entusiasmo al diseño y desarrollo de interfaces digitales.
+              Mi objetivo como desarrolladora es construir proyectos dinámicos, inclusivos y bien estructurados, aprovechando tanto mis conocimientos técnicos
+              como mi compromiso con la calidad en cada detalle. Constantemente busco evolucionar mis habilidades y explorar nuevos retos que me permitan expandir
+              mis horizontes en este campo apasionante.
+            </p>
+            <p class="seccion_descripcion__parrafo">
+              Me encanta aprender tecnologías nuevas y aplicarlas para resolver problemas reales.
+            </p>
+          </div>
+        </section>
+        <section class="seccion_descripcion">
+          <div class="seccion_descripcion__porta_retrato">
+            <img
+              class="seccion_descripcion__imagen"
+              src="assets/img/MiPerfil/cari-TPD.jpg"
+              alt="Foto de Carina en su rol de TPD"
+              title="Carina en su otra pasión"
+            />
+          </div>
+          <div class="seccion_descripcion__info scroll scroll_fino scroll_gris">
+            <h3 class="seccion_descripcion__titulo">Habilidades</h3>
+            <ul class="seccion_descripcion__lista">
+              <li>Desarrollo Frontend (HTML5, CSS3, JavaScript)</li>
+              <li>Diseño responsivo</li>
+              <li>Control de versiones con Git</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </article>
+    <article class="articulo proyectos" id="proyectos">
+      <h2 class="articulo__titulo">Mis proyectos</h2>
+      <div class="contenedor_tarjetas_grid">
+        <article class="tarjeta">
+          <img
+            class="tarjeta__imagen"
+            src="assets/img/Proyectos/appAmigoSecreto.jpg"
+            alt="Proyecto 1"
+            title="Proyecto 1"
+          />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo">App Amigo Secreto</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo">
+              Una solución digital y amigable para el clásico juego del "Amigo Secreto".
+              Desarrollada con HTML, CSS y JavaScript, esta aplicación permite a los usuarios
+              añadir participantes y realizar un sorteo intuitivo, simplificando la organización de intercambios de regalos.
+            </p>
+            <a href="https://github.com/Cary40/App-Amigo-Secreto"
+              class="boton boton_oscuro" target="_blank"
+              rel="noopener noreferrer" >Ver proyecto</a>
+          </div>
+        </article>
+      </div>
+    </article>
+  </main>
+  <footer class="pie_de_pagina" role="contentinfo" id="redes">
+    <div class="pie_de_pagina__columna">
+      <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+      <ul class="enlaces enlaces_redes">
+        <li class="enlaces__item">
+          <a
+            class="enlaces__enlace enlaces__enlace_footer"
+            href="https://github.com/Cary40"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="enlaces__icono"
+              src="assets/img/Logos/github-logo.png"
+              alt="GitHub"
+              title="GitHub"
+            />
+          </a>
+        </li>
+        <li class="enlaces__item">
+          <a
+            class="enlaces__enlace enlaces__enlace_footer"
+            href="https://www.linkedin.com/in/carina-nasif-2295a71b9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="enlaces__icono"
+              src="assets/img/Logos/linkedin-logo.png"
+              alt="LinkedIn"
+              title="LinkedIn"
+            />
+          </a>
+        </li>
+        <li class="enlaces__item">
+          <a
+            class="enlaces__enlace enlaces__enlace_footer"
+            href="https://www.instagram.com/carinanasif/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="enlaces__icono"
+              src="assets/img/Logos/ig-logo.png"
+              alt="Instagram"
+              title="Instagram"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="pie_de_pagina__copyright">
+      <p>© 2025 Carina A. Nasif</p>
+    </div>
+  </footer>
+</body>
+</html>
